@@ -6,6 +6,8 @@ Atualmente, meu foco total está nos fundamentos do JavaScript. Acredito que dom
 
 Atualizado: 15/02/2026
 
+⚙️ [Utilitários](utilitarios.md)
+
 ## Javascript
 ### Variáveis
 ✅ O que são variáveis 
