@@ -91,6 +91,7 @@ Este documento serve como meu dicionário pessoal de implementações. Aqui, cat
 *  `Math.random()`
 * `parseInt()` 
 * `parseFloat()`
+* `.replaceAll()`
 
 ## Métodos de array
 * `push()`
@@ -113,6 +114,8 @@ Este documento serve como meu dicionário pessoal de implementações. Aqui, cat
 * `some()`
 * `sort()`
 * `reduce()`
+* `Array.at()`
+* `Array.from()`
 
 ## Outros método
 * `setTimeout()` e `clearTimeout()`
@@ -125,11 +128,13 @@ Este documento serve como meu dicionário pessoal de implementações. Aqui, cat
 * `Promise.all()`
 * `btoa()` e `atob()`
 * `Object.assign(record, attrs)`
+* `Promise.any([...])`
+* `isNaN()`
  
 ## Operadores
 * `+`, `-`, `*`, `/`, `**`, `%`
-* `+=`, `-=`, `*=`. `/=`
-* `i++` e `i--`
+* `+=`, `-=`, `*=`. `/=`, `||=`, `&&=`, `??=`
+*  `i++`, `++i`, `i--`, `--i`
 * `typeof`
 * `===` e `!==`
 * `>`, `<`, `>=` e `<=`
@@ -137,6 +142,10 @@ Este documento serve como meu dicionário pessoal de implementações. Aqui, cat
 * `condição ? true : false`
 * `bind`, `call` ou `apply` ???
 * Rest e spread `...`
+* `instanceof`
+* `?.`
+* x `??` y, x `&&` y, x `||` y 
+
 
 ## Módulos de terceiros
 * `axios`
