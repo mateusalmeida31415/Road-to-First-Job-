@@ -1,4 +1,4 @@
-# Road-to-First-Job: Minha Jornada Fullstack 2026`
+# Road-to-First-Job: Minha Jornada Fullstack 2026
 
 Retornei aos estudos de programação em 2026 com um objetivo claro: conquistar minha primeira vaga como desenvolvedor até o fim do ano. Criei este repositório para documentar minha jornada, consolidar meu aprendizado e servir como portfólio técnico.
 
@@ -23,19 +23,25 @@ Atualizado: 15/02/2026
 	✅ E as regras de escopo de cada 
 ✅ Quais os 6 tipos primitivos em javascript (Number, string, boolean, null, undefined)
 ✅ Diferença entre `null` e `undefined` 
+✅ Usar o `Bigint()` e suas particularidades 
+✅ Os erros de não usar o ponto e virgulas explicitamente causado pelo ASI do JS
 
 ### Operações matemáticas 
 ✅ Os 6 operadores básico de matemática 
 ✅ Como funciona a ordem de procedência com os operadores matemáticos 
 ✅ Como elevar a prioridade de operações matemáticas usando `()`
 ✅ O fato que o javascript não tem um boa precisão matemática para casas decimais grandes
+	✅ Não tem precisão em cálculo para números inteiros maior que o tamanho máximo ideal 
 ✅ O que é o `NaN` e quando ele ocorre 
+	✅ Diferença entre o função `isNaN()` e o método `Number.isNaN()`
 ✅ Usar os operadores de atribuição composta
 	✅  `x += 3;` ,  `x -= 3;`, `x *= 3;` e `x /= 3;`
 ✅ Usar os operadores unários de incremento e decremento
 	✅ `x++;` e `x--;`
+	✅ Diferença entre Pós-incremento e pré-incremento
 ✅ Alguns funcionalidades do modulo `Math`
 ✅ Criar números de forma "aleatória" usando o `Math.random()`
+✅ Usar o Numeric separators para melhor a visualização de números grandes
 
 ### String
 ✅ O que são strings
@@ -61,6 +67,8 @@ Atualizado: 15/02/2026
 ✅ Usar condicionais `if`, `else if`, `else` e `switch` 
 	✅ Usar condicionais aninhadas 
 ✅ Usar o operador ternário `condição ? _true : _false`
+✅ Usar o Nullish Coalescing Operator (`??`) 
+✅ Usar o OR Assignment (`||=`),  And Assignment (`&&=`) e Nullish Assignment (`??=`)
 
 ### Estruturas de Dados 
 #### Arrays 
@@ -88,6 +96,8 @@ Atualizado: 15/02/2026
 	✅ Separar os elementos individualmente em variáveis
 	✅ Pular elementos quando necessário
 	✅ Usar integrado com o operador `rest`
+✅ Usar o `Array.at()` para acessar elementos do array 
+✅ Usar o `Array.from()` para criar novos arrays ou manipula-los
 
 #### Objetos
 ✅ O que são objetos e casos de uso 
@@ -122,8 +132,18 @@ Atualizado: 15/02/2026
 ✅ Como funciona a classe construtora
 ✅ Como estender as propriedades e métodos de uma classe modelo usando o `extends`
 ✅ Como usar o método `super()` no construtor 
-✅ Criar atributos e métodos estáticos e o contexto de uso 
-✅ E quais situações não podemos usar o método estáticos
+✅ Sobre o que faz o `new` por trás dos panos 
+✅ Verificar se um objeto e uma instancia de um classe específica usando o `instanceof`
+✅ Fato que as classes são uma sintax simplificada das funções construtoras e `prototype`
+✅ Criar propriedade e métodos estáticos usando o `static`
+	✅ Alguns contextos de uso
+	✅ O valor do `this` em um método `static`
+	✅ E como não devemos tentar acessa-los após instanciar a classe 
+✅ Como usar os métodos `get` e `set` e contexto de uso 
+✅ Como criar atributos e métodos declarados como públicos e privados 
+	✅ Como usar a sintaxe antiga usando `_` para definir como privado 
+✅ Como usar o Optional Chaining (`?.`) para lidar com dados incompletos 
+
 
 ### Funções 
 ✅ O que são funções e casos de uso 
@@ -153,6 +173,7 @@ Atualizado: 15/02/2026
 	✅ Separar os elementos individualmente de um objeto no parâmetro
 	✅ Separar os elementos individualmente de um array no parâmetro
 	✅ Usar integrado com o operador `rest`
+✅ O que são e como usar Funções Geradoras (Generators) e suas particularidades
 
 ### Prototype
 ✅ O que é o protoype 
@@ -161,6 +182,8 @@ Atualizado: 15/02/2026
 	✅ Referencia da class de prototype de onde herdam atributos e métodos 
 ✅ `Array.prototype` é a classe de prototype em si 
 ✅ Criar métodos personalizados e colocar no `prototype`
+✅ Como o `prototype` traz um componente de eficiente para o Javascript
+✅ Fato que quando usamos o `extends` estamos adicionando mais um nível a *prototype chain*
 
 ### Navegador
 ✅ O que é o DOM e `document` o seu ponto de entrada 
@@ -201,6 +224,7 @@ Atualizado: 15/02/2026
 ✅ Diferença em resolver uma `Promise` em sequencia e em paralelo usando o `Promise.all()`
 ✅ Como usar o `fetch` API e as suas particularidades 
 ✅ Como usar o `axios` para fazer requests 
+✅ Como usar o `Promise.any([...])` 
 
 ### Node.js
 ✅ O que é o Node.js 
